@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homework - Dinner Form</title>
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <h1 class="header__title">CSS Dinner Shopping List</h1>
+            <p class="header__sub-title">Let's go to the mall!</p>
+        </div>
+    </header>
+    <main class="main">
+        <div class="container">
+            <div class="form-wrapper">
+                <form action="./index.html" method="GET" class="form" name="order_form" id="order_form">
+                    <ul class="form_list">
+                        <li class="form_list__row">
+                            <input type="checkbox" id="item_1" class="form_list__input styled-checkbox" name="item_1" value="A lot of pickles">
+                            <label for="item_1" class="form_list__label">A lot of pickles <span>for the next lessons about CSS</span></label>
+                        </li>
+                        <li class="form_list__row">
+                            <input type="checkbox" id="item_2" class="form_list__input styled-checkbox" name="item_2" value="10 apples" checked>
+                            <label for="item_2" class="form_list__label">10 apples <span>for more CSS manipulations</span></label>
+                        </li>
+                        <li class="form_list__row">
+                            <input type="checkbox" id="item_3" class="form_list__input styled-checkbox" name="item_3" value="20 oranges" >
+                            <label for="item_3" class="form_list__label">20 oranges <span>because they are awesome</span></label>
+                        </li>
+                        <li class="form_list__row">
+                            <input type="checkbox" id="item_4" class="form_list__input styled-checkbox" name="item_4" value="13 plates">
+                            <label for="item_4" class="form_list__label">13 plates <span>hm... they always dissapear</span></label>
+                        </li>
+                        <li class="form_list__row">
+                            <input type="checkbox" id="item_5" class="form_list__input styled-checkbox" name="item_5" value="15 bentos">
+                            <label for="item_5" class="form_list__label">15 bentos</label>
+                        </li>
+                        <li class="form_list__row">
+                            <input type="checkbox" id="item_6" class="form_list__input styled-checkbox" name="item_6" value="1 bottle of Sake ">
+                            <label for="item_6" class="form_list__label">1 bottle of Sake <span>for my friends</span></label>
+                        </li>
+                    </ul>
+                    
+
+                </form>
+            </div>
+            <button type="submit" class="submit_button"  form="order_form">Bon appetit :&#41;</button>
+        </div>         
+    </main>
+    <footer class="footer">
+        <p>That's all.</p>
+    </footer>
+</body>
+</html>
